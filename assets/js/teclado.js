@@ -23,21 +23,20 @@ function createDiv(color) {
 /*eventos y condiciones*/
 
 document.addEventListener("keydown", function (event) {
-  if (event.key == "A") {
+  if (event.key === "a") {
     originalColor = "pink";
     changeColor(originalColor);
-  } else if (event.key == "S") {
+  } else if (event.key === "s") {
     originalColor = "orange";
     changeColor(originalColor);
-  } else if (event.key == "D") {
+  } else if (event.key === "d") {
     originalColor = "lightblue";
     changeColor(originalColor);
-  } else if (event.key == "Q") {
+  } else if (event.key === "q") {
     createDiv("purple");
-  } else if (event.key == "W") {
+  } else if (event.key === "w") {
     createDiv("gray");
-  } else if (event.key == "E") {
+  } else if (event.key === "e") {
     createDiv("brown");
   }
 });
-
