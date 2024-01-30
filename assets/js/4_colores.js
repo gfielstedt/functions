@@ -17,14 +17,14 @@ divB.addEventListener("click", function () {
   paintBlack(divB);
 });
 
-divB.addEventListener("click", function () {
-  paintBlack(divB);
+divR.addEventListener("click", function () {
+  paintBlack(divR);
 });
 
-divB.addEventListener("click", function () {
-  paintBlack(divB);
+divG.addEventListener("click", function () {
+  paintBlack(divG);
 });
 
-divB.addEventListener("click", function () {
-  paintBlack(divB);
+divY.addEventListener("click", function () {
+  paintBlack(divY);
 });
