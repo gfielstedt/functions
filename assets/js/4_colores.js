@@ -11,7 +11,7 @@ function paintBlack(element) {
   element.style.backgroundColor = "black";
 }
 
-/*eventos y llamados*/
+/*eventos*/
 
 divB.addEventListener("click", function () {
   paintBlack(divB);
@@ -28,5 +28,3 @@ divB.addEventListener("click", function () {
 divB.addEventListener("click", function () {
   paintBlack(divB);
 });
-
-
