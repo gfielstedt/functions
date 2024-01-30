@@ -1,15 +1,15 @@
-/*Variable para guardar color*/
+/*Variable color original*/
 
 let originalColor = "white";
 
-/* función para  cambiar color del div*/
+/* función cambiar color div*/
 
 function changeColor(color) {
   let key = document.getElementById("key");
   key.style.backgroundColor = color;
 }
 
-/* función para crear nuevo div */
+/* función crea nuevo div*/
 
 function createDiv(color) {
   let newDiv = document.createElement("div");
@@ -20,23 +20,24 @@ function createDiv(color) {
   document.body.appendChild(newDiv);
 }
 
-/*eventos / condiciones*/
+/*eventos y condiciones*/
 
 document.addEventListener("keydown", function (event) {
-  if (event.key === "a") {
-    let originalColor = "pink";
-    cambiarColor(originalColor);
-  } else if (event.key === "s") {
-    let originalColor = "orange";
-    cambiarColor(originalColor);
-  } else if (event.key === "d") {
-    let originalColor = "lightblue";
-    cambiarColor(originalColor);
-  } else if (event.key === "q") {
+  if (event.key == "A") {
+    originalColor = "pink";
+    changeColor(originalColor);
+  } else if (event.key == "S") {
+    originalColor = "orange";
+    changeColor(originalColor);
+  } else if (event.key == "D") {
+    originalColor = "lightblue";
+    changeColor(originalColor);
+  } else if (event.key == "Q") {
     createDiv("purple");
-  } else if (event.key === "w") {
+  } else if (event.key == "W") {
     createDiv("gray");
-  } else if (event.key === "e") {
+  } else if (event.key == "E") {
     createDiv("brown");
   }
 });
+
