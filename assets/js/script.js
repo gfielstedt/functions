@@ -2,14 +2,8 @@
 
 const onlyDiv = document.getElementById("ele1");
 
-/*funciones*/
+/*funciones y eventos*/
 
-function paint(element) {
-  element.style.backgroundColor = "yellow";
-}
-
-/*eventos y llamados*/
-
-ele1.addEventListener("click", function () {
-  paint(ele1);
+onlyDiv.addEventListener("click", function () {
+  onlyDiv.style.backgroundColor = color = "yellow";
 });
