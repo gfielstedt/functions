@@ -21,3 +21,12 @@ div {
   width: 1700px;
   height: 50px;
 }
+
+/*teclado*/
+
+#key {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+}
